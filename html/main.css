@@ -48,7 +48,3 @@ body {
     animation: slideout 0.5s forwards;
     -webkit-animation: slideout 0.5s forwards;
 }
-
-/* .container::first-letter {
-    text-shadow: 1px 1px 0px rgba(0,0,0,1);    
-} */
