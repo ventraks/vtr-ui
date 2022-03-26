@@ -1,6 +1,6 @@
 local function showInteraction(text, color)
     SendNUIMessage({
-        type = "open",
+        type = "show",
         text = text,
         color = color,
     })
@@ -8,7 +8,7 @@ end
 
 local function hideInteraction()
     SendNUIMessage({
-        type = "close",
+        type = "hide",
     })
 end
 
